@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "bootstrap/scss/bootstrap";
+
+body {
+    position:absolute;
+    width:100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    background: black;
+}
+
+.p-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    align-content: center;
+    text-align: left;
+    word-wrap: normal;
+    width: 600px;
+    word-break: break-word;
+    position: absolute;
+    top: 63%;
+    left: 5%;
+    animation: fadeIn 6s;
+}
+
+#nav-bar{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.nav-bar{
+    background: black;
+}
+
+.linkedin-title{
+    position: absolute;
+    top: 50%;
+}
+
+.github-title{
+    position: absolute;
+    top: 50%;
+}
+
+.header-name{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    animation: slide-up 4s;
+ 
+}
+
+.profile-name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    animation: slide-up 4s;
+}
+
+.contact-name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.contact-container {
+    position: absolute;
+    top: 218%;
+    width: 100%;
+    height: 630px;
+    padding: 0px;
+    border: 0px;
+    background-color: black;
+
+}
+
+.profile-container {
+    background: black;
+    position: absolute;
+    top: 108%;
+    width: 100%;
+    height: 700px;
+    padding: 0px;
+    border: 0px;
+}
+
+.home-container {
+    background: black;
+    top: 4%;
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    padding: 0px;
+    border: 0px;
+}
+
+body li {
+    align-items: flex-end;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    background: black;
+}
+
+body li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
+}
+
+body li a:hover {
+    color: #E2BDD4;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0.2;
+        line-height: 150px;
+    }
+
+    to {
+        opacity: 1;
+        line-height: 64px;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.form-container {
+    position: absolute;
+    top: 5%;
+    left: 0.5%;
+    width: 700px;
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    max-width: 700px;
+    height: 90%;
+    width: 65%;
+    background: none;
+    padding: 30px;
+    margin: 17vh auto 0 auto;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #D3D3D3;
+    font-family: "Montserrat", sans-serif;
+}
+  
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #D3D3D3;
+    font-family: "Montserrat", sans-serif;
+}
+  
+input[type="text"]:focus, textarea:focus {
+    border-bottom: 2px solid #9e71b8;
+}
+  
+.send-btn {
+    position: absolute;
+    top: 100%;
+    left: 22%;
+    width: 25%;
+    height: 50px;
+    border: none;
+    background-color: palevioletred;
+    box-shadow: inset 0 0 0 0;
+    transition: ease-out 0.3s;
+    
+    outline: none;
+    color: white;
+}
+  
+.send-btn:hover {
+    cursor: pointer;
+    color: lightskyblue;
+}
+
+.skku {
+    color: #6cdf7b;
+    background: none;
+}
+
+.name {
+    color: #b184a7;
+    background: none;
+}
+
+.fs-2{
+    color: white;
+}
+
+.paraf{
+    color: white;
+}
+
+.skku a:focus{
+    outline: none;
+    text-decoration: none !important;
+}
+
+#skku-link a:focus {
+    text-decoration: none !important;
+}
+
+.info-table {
+    color: white;
+}
+
+.edu-name{
+    color: white;
+    font-size: 30px;
+}
+
+.table-container{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+
+.photo{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+
+
+  
